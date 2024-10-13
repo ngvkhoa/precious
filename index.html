@@ -257,5 +257,22 @@ to {
 transform: translate(-50%, -50%) scale(1) rotate(0deg) skewX(-15deg) skewY(-18deg);
 }
 }
+body {
+background-color: #879F86; /* Đổi màu nền thành màu từ hình ảnh */
+position: relative; /* Cần thiết cho định vị tuyệt đối */
+color: white; /* Màu chữ mặc định là trắng */
+}
+.footer-text {
+position: absolute; /* Định vị tuyệt đối */
+bottom: 20px; /* Cách dưới 20px */
+right: 20px; /* Cách phải 20px */
+font-size: 12px; /* Kích thước chữ nhỏ */
+}
 </style>
+</head>
+
+<body onclick="location.reload();">
+    <div class="footer-text">ngvkhoa</div> <!-- Dòng chữ nhỏ ở góc dưới bên phải -->
+</body>
+
 </html>
